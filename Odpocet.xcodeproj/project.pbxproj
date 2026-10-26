@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005423A6758E02C5C7726C59 /* App/OdpocetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763599511E9E98C4AF79478A /* App/OdpocetApp.swift */; };
+		31FA308700BBA1A0DAE52A83 /* Configuration/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B3AA1073F45956987506BB5F /* Configuration/PrivacyInfo.xcprivacy */; };
+		4AA13EAAA42A18119FFEF5F2 /* Shared/EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C5862E3B485CD71C0F8C0 /* Shared/EventStore.swift */; };
+		62C17815FB8E7F33B4ADB2C9 /* OdpocetWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B58ECBD322CCE7A091760AD /* OdpocetWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6984DA76651661E5BDD86A3B /* Tests/CountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96661B8B6E0B7704490B5325 /* Tests/CountdownTests.swift */; };
+		69864118825167E2FD52C471 /* App/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5CCB0147A1F44705D7DBD4 /* App/Assets.xcassets */; };
+		6C5489FE5C53FBE0863A0436 /* Widget/OdpocetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BF0B64542D8F993034291 /* Widget/OdpocetWidget.swift */; };
+		86E67879024E1B23862B26F8 /* Shared/EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C5862E3B485CD71C0F8C0 /* Shared/EventStore.swift */; };
+		86FD741463AB788A3FF0CAC0 /* App/CountdownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B179C96D46CE943AB4631A /* App/CountdownModel.swift */; };
+		8F0D0CCE032CE9474B8CF86F /* Shared/CountdownEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CD74B1FBCC3CFC02A39EE /* Shared/CountdownEvent.swift */; };
+		94F58CD914A2DBD5EAA3EB23 /* App/WidgetHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D2A802249A42B8AC223E5 /* App/WidgetHelpView.swift */; };
+		967CF08D7B5F51E62775EF78 /* Shared/CountdownEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CD74B1FBCC3CFC02A39EE /* Shared/CountdownEvent.swift */; };
+		A582D8E11C2C29AB16B3DD61 /* App/EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7524C6C424D2C79DAF013 /* App/EventEditor.swift */; };
+		D249DF95695F945FB3EA18DA /* Configuration/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B3AA1073F45956987506BB5F /* Configuration/PrivacyInfo.xcprivacy */; };
+		D27F1057A27F93A805C9C52B /* App/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C125CD6FD6C744B3771F66D7 /* App/ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B0E4005FDC4BEAFA7A03754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905A06723891D95ADE539FBC;
+			remoteInfo = Odpocet;
+		};
+		FDA192F39C5529EE56105A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBB528D0B9B65775AC851CC;
+			remoteInfo = OdpocetWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFFF27C96089B93150F3553B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				62C17815FB8E7F33B4ADB2C9 /* OdpocetWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06D6AAFD414EE13464FA9C92 /* OdpocetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdpocetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B179C96D46CE943AB4631A /* App/CountdownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/CountdownModel.swift; sourceTree = "<group>"; };
+		32B7524C6C424D2C79DAF013 /* App/EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/EventEditor.swift; sourceTree = "<group>"; };
+		3F4CD74B1FBCC3CFC02A39EE /* Shared/CountdownEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/CountdownEvent.swift; sourceTree = "<group>"; };
+		4B58ECBD322CCE7A091760AD /* OdpocetWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OdpocetWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3BF0B64542D8F993034291 /* Widget/OdpocetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget/OdpocetWidget.swift; sourceTree = "<group>"; };
+		4E2D23C95FD1BAC4CED90CF4 /* Configuration/App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Configuration/App.entitlements; sourceTree = "<group>"; };
+		558279E776C1B815487C18F3 /* Odpocet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odpocet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A87AE48393CC5C4E6F5C7B /* Configuration/Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Configuration/Widget-Info.plist"; sourceTree = "<group>"; };
+		763599511E9E98C4AF79478A /* App/OdpocetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/OdpocetApp.swift; sourceTree = "<group>"; };
+		7A5CCB0147A1F44705D7DBD4 /* App/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = App/Assets.xcassets; sourceTree = "<group>"; };
+		96661B8B6E0B7704490B5325 /* Tests/CountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/CountdownTests.swift; sourceTree = "<group>"; };
+		AA4ACA445B3FBAF47CDE31AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B3AA1073F45956987506BB5F /* Configuration/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Configuration/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C125CD6FD6C744B3771F66D7 /* App/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ContentView.swift; sourceTree = "<group>"; };
+		D437E45AA1DBB59470A7AE07 /* Configuration/App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Configuration/App-Info.plist"; sourceTree = "<group>"; };
+		D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configuration/Project.xcconfig; sourceTree = "<group>"; };
+		E49D2A802249A42B8AC223E5 /* App/WidgetHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/WidgetHelpView.swift; sourceTree = "<group>"; };
+		E82C5862E3B485CD71C0F8C0 /* Shared/EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/EventStore.swift; sourceTree = "<group>"; };
+		F47CD7A97C76D3CC2EDC774D /* Configuration/Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Configuration/Widget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C0D1D1C8925E6045B41BE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E96E5BD1CC619A1371D92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFEED94095B65BE62719414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156052F04525D0F710673CF0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96661B8B6E0B7704490B5325 /* Tests/CountdownTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		1C48CE29E4E135EE62951B22 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				763599511E9E98C4AF79478A /* App/OdpocetApp.swift */,
+				27B179C96D46CE943AB4631A /* App/CountdownModel.swift */,
+				C125CD6FD6C744B3771F66D7 /* App/ContentView.swift */,
+				32B7524C6C424D2C79DAF013 /* App/EventEditor.swift */,
+				E49D2A802249A42B8AC223E5 /* App/WidgetHelpView.swift */,
+				7A5CCB0147A1F44705D7DBD4 /* App/Assets.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		44C7E229889FE9D1BB841A79 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3F4CD74B1FBCC3CFC02A39EE /* Shared/CountdownEvent.swift */,
+				E82C5862E3B485CD71C0F8C0 /* Shared/EventStore.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		514FD8379F3D5B871ED7905C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				1C48CE29E4E135EE62951B22 /* App */,
+				44C7E229889FE9D1BB841A79 /* Shared */,
+				DDF05173B376DE398B5EAD82 /* Widget */,
+				156052F04525D0F710673CF0 /* Tests */,
+				C23108729D1809B8323E9806 /* Configuration */,
+				AA4ACA445B3FBAF47CDE31AC /* README.md */,
+				5151B46607EBC8890D8DFCC2 /* Products */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		5151B46607EBC8890D8DFCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558279E776C1B815487C18F3 /* Odpocet.app */,
+				4B58ECBD322CCE7A091760AD /* OdpocetWidgetExtension.appex */,
+				06D6AAFD414EE13464FA9C92 /* OdpocetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23108729D1809B8323E9806 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */,
+				B3AA1073F45956987506BB5F /* Configuration/PrivacyInfo.xcprivacy */,
+				4E2D23C95FD1BAC4CED90CF4 /* Configuration/App.entitlements */,
+				F47CD7A97C76D3CC2EDC774D /* Configuration/Widget.entitlements */,
+				D437E45AA1DBB59470A7AE07 /* Configuration/App-Info.plist */,
+				60A87AE48393CC5C4E6F5C7B /* Configuration/Widget-Info.plist */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		DDF05173B376DE398B5EAD82 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4C3BF0B64542D8F993034291 /* Widget/OdpocetWidget.swift */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CBB528D0B9B65775AC851CC /* OdpocetWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E7B84647A5E5C047D36D175 /* Build configuration list for PBXNativeTarget "OdpocetWidgetExtension" */;
+			buildPhases = (
+				6986A5A5D9C923F52B5AD64D /* Sources */,
+				21E96E5BD1CC619A1371D92C /* Frameworks */,
+				959E06F5D4C8259C45140CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OdpocetWidgetExtension;
+			productName = OdpocetWidgetExtension;
+			productReference = 4B58ECBD322CCE7A091760AD /* OdpocetWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		905A06723891D95ADE539FBC /* Odpocet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E16D6A76DF6CDE0BB9FFDB /* Build configuration list for PBXNativeTarget "Odpocet" */;
+			buildPhases = (
+				E6C2C0B5171D9BC46ED4D147 /* Sources */,
+				0C0D1D1C8925E6045B41BE19 /* Frameworks */,
+				9B173F7AAED5DF5FE83E7ACE /* Resources */,
+				CFFF27C96089B93150F3553B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99AE315E9B719691C976060F /* PBXTargetDependency */,
+			);
+			name = Odpocet;
+			productName = Odpocet;
+			productReference = 558279E776C1B815487C18F3 /* Odpocet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D70F8066E50188AA4DE33D06 /* OdpocetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5A92EECDA87B6F0BEB2F2D /* Build configuration list for PBXNativeTarget "OdpocetTests" */;
+			buildPhases = (
+				569B16960711882C33883B6D /* Sources */,
+				BAFEED94095B65BE62719414 /* Frameworks */,
+				AB71C986C23E8753F8FE589D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A9F101A77A4BB16E5D8D94 /* PBXTargetDependency */,
+			);
+			name = OdpocetTests;
+			productName = OdpocetTests;
+			productReference = 06D6AAFD414EE13464FA9C92 /* OdpocetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					1CBB528D0B9B65775AC851CC = {
+						CreatedOnToolsVersion = 27.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					905A06723891D95ADE539FBC = {
+						CreatedOnToolsVersion = 27.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D70F8066E50188AA4DE33D06 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 905A06723891D95ADE539FBC;
+					};
+				};
+			};
+			buildConfigurationList = 12D04D787E90C9B967248BFD /* Build configuration list for PBXProject "Odpocet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = cs;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				cs,
+				en,
+				Base,
+			);
+			mainGroup = 514FD8379F3D5B871ED7905C /* Root */;
+			productRefGroup = 5151B46607EBC8890D8DFCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905A06723891D95ADE539FBC /* Odpocet */,
+				1CBB528D0B9B65775AC851CC /* OdpocetWidgetExtension */,
+				D70F8066E50188AA4DE33D06 /* OdpocetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959E06F5D4C8259C45140CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D249DF95695F945FB3EA18DA /* Configuration/PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B173F7AAED5DF5FE83E7ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA308700BBA1A0DAE52A83 /* Configuration/PrivacyInfo.xcprivacy in Resources */,
+				69864118825167E2FD52C471 /* App/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB71C986C23E8753F8FE589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		569B16960711882C33883B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6984DA76651661E5BDD86A3B /* Tests/CountdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6986A5A5D9C923F52B5AD64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5489FE5C53FBE0863A0436 /* Widget/OdpocetWidget.swift in Sources */,
+				967CF08D7B5F51E62775EF78 /* Shared/CountdownEvent.swift in Sources */,
+				4AA13EAAA42A18119FFEF5F2 /* Shared/EventStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C2C0B5171D9BC46ED4D147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005423A6758E02C5C7726C59 /* App/OdpocetApp.swift in Sources */,
+				86FD741463AB788A3FF0CAC0 /* App/CountdownModel.swift in Sources */,
+				D27F1057A27F93A805C9C52B /* App/ContentView.swift in Sources */,
+				A582D8E11C2C29AB16B3DD61 /* App/EventEditor.swift in Sources */,
+				94F58CD914A2DBD5EAA3EB23 /* App/WidgetHelpView.swift in Sources */,
+				8F0D0CCE032CE9474B8CF86F /* Shared/CountdownEvent.swift in Sources */,
+				86E67879024E1B23862B26F8 /* Shared/EventStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A9F101A77A4BB16E5D8D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905A06723891D95ADE539FBC /* Odpocet */;
+			targetProxy = 9B0E4005FDC4BEAFA7A03754 /* PBXContainerItemProxy */;
+		};
+		99AE315E9B719691C976060F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBB528D0B9B65775AC851CC /* OdpocetWidgetExtension */;
+			targetProxy = FDA192F39C5529EE56105A59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036AF2913E8368D3EC37C62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/App.entitlements;
+				DEVELOPMENT_TEAM = 8F7DM4TGCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odpočet";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Debug;
+		};
+		1992DAC165858B1E45A4E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odpocet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Odpocet";
+			};
+			name = Debug;
+		};
+		1EF1F57ED185E8D8344769CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/App.entitlements;
+				DEVELOPMENT_TEAM = 8F7DM4TGCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odpočet";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Release;
+		};
+		262E02E3C63E2FBADCBCB6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7574CC81F078ABCD69AA6653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odpocet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Odpocet";
+			};
+			name = Release;
+		};
+		802C23CBC29FE111EA123704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Widget.entitlements;
+				DEVELOPMENT_TEAM = 8F7DM4TGCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Release;
+		};
+		86E0D76135EE80816AB07AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AE059CF71D130F0183F498AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Widget.entitlements;
+				DEVELOPMENT_TEAM = 8F7DM4TGCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D04D787E90C9B967248BFD /* Build configuration list for PBXProject "Odpocet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262E02E3C63E2FBADCBCB6A2 /* Debug */,
+				86E0D76135EE80816AB07AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E16D6A76DF6CDE0BB9FFDB /* Build configuration list for PBXNativeTarget "Odpocet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036AF2913E8368D3EC37C62D /* Debug */,
+				1EF1F57ED185E8D8344769CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5A92EECDA87B6F0BEB2F2D /* Build configuration list for PBXNativeTarget "OdpocetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1992DAC165858B1E45A4E666 /* Debug */,
+				7574CC81F078ABCD69AA6653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E7B84647A5E5C047D36D175 /* Build configuration list for PBXNativeTarget "OdpocetWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE059CF71D130F0183F498AF /* Debug */,
+				802C23CBC29FE111EA123704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

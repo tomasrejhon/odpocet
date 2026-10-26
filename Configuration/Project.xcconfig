@@ -1,0 +1,15 @@
+// Change these identifiers if your developer account needs a different namespace.
+APP_BUNDLE_ID = cz.tomasrejhon.Odpocet
+APP_GROUP_ID = group.cz.tomasrejhon.Odpocet
+// Same paid Apple Developer team as the existing iPhone project.
+DEVELOPMENT_TEAM = 8F7DM4TGCN
+CODE_SIGN_STYLE = Automatic
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SWIFT_VERSION = 5.0
+TARGETED_DEVICE_FAMILY = 1
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
+SUPPORTS_MACCATALYST = NO
+SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO
+SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1
